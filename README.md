@@ -1,4 +1,4 @@
-# JS Calculator
+# Calculator
 
 ![GifMobile](readme/underconstruction.gif)
 

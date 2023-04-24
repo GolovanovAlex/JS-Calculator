@@ -7,8 +7,47 @@
 body {
   font-family: 'Poppins', sans-serif;
   min-height: 100vh;
-  background-color: #fefefe;
+  background-color: #5d5c61;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.container {
+  position: relative;
+  max-width: 300px;
+  width: 100%;
+  background-color: #7395ae;
+  border-radius: 12px;
+  padding: 10px 20px 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.01);
+}
+.display {
+  width: 100%;
+  height: 80px;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 1;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  text-align: right;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  pointer-events: none;
+}
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+.buttons button {
+  border: none;
+  border-radius: 6px;
+  background-color: #eee;
+  padding: 12px 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.buttons button:active {
+  transform: scale(0.97);
 }
